@@ -1,0 +1,21 @@
+.button {
+  color: #FFF;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: #e67e22;
+  font-weight: bold;
+  font-size: small;
+  border: 1px solid #0b131b;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.rippleEffect {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  display: none;
+  position: absolute;
+}
