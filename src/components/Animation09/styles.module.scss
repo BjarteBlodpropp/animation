@@ -1,0 +1,61 @@
+.imageContainer {
+  margin-left: 150px;
+  margin-top: 50px;
+
+  .imageElement {
+    position: relative;
+    display: inline-block;
+  }
+  .whiteDot {
+    background-image: url('./white-dot.png');
+    top: -14px;
+    height: 9px;
+    width: 8px;
+  }
+
+  .orangeDot {
+    background-image: url('orange-dot.png');
+    top: -15px;
+    left: 4px;
+    height: 7px;
+    width: 8px;
+  }
+
+  .whiteI {
+    background-image: url('white-i.png');
+    left: -8px;
+    top: 20px;
+    height: 31px;
+    width: 7px;
+  }
+
+  .whiteN1 {
+    background-image: url('white-n.png');
+    top: 20px;
+    left: -3px;
+    height: 35px;
+    width: 30px;
+  }
+
+  .whiteN2 {
+    background-image: url('white-n.png');
+    top: 20px;
+    height: 35px;
+    width: 30px;
+  }
+
+  .orangeI {
+    background-image: url('orange-i.png');
+    top: 20px;
+    left: -4px;
+    height: 31px;
+    width: 8px;
+  }
+
+  .orangeT {
+    background-image: url('orange-t.png');
+    top: 20px;
+    height: 43px;
+    width: 19px;
+  }
+}

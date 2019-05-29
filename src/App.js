@@ -8,6 +8,7 @@ import Animation05 from './components/Animation05/Animation05';
 import Animation06 from './components/Animation06/Animation06';
 import Animation07 from './components/Animation07/Animation07';
 import Animation08 from './components/Animation08/Animation08';
+import Animation09 from './components/Animation09/Animation09';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Animation06/>
       <Animation07/>
       <Animation08/>
+      <Animation09/>
     </div>
   );
 }
