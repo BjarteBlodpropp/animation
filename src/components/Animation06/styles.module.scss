@@ -1,0 +1,38 @@
+.fotball {
+  position: relative;
+  top: 40px;
+  font-size: 50px;
+  color: #bdc3c7;
+}
+
+.hammer {
+  position: relative;
+  top: 60px;
+  left: 190px;
+  font-size: 60px;
+  color: #f1c40f;
+
+  i {
+    transform: rotate(-0.1turn);
+  }
+}
+
+.happy {
+  position: relative;
+  top: 110px;
+  left: 145px;
+  font-size: 60px;
+  color: #2ecc71;
+}
+
+.dead {
+  position: relative;
+  top: 110px;
+  left: 87px;
+  font-size: 60px;
+  color: #e74c3c;
+
+  i {
+    opacity: 0;
+  }
+}

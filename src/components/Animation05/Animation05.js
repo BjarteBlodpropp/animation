@@ -15,6 +15,8 @@ const Animation05 = () => {
     Anime({
       targets: '#car3',
       translateX: 250,
+      skewX: ['30deg', 0],
+      //skewX: [0, '30deg', 0],
       easing: cubicBezierCurve,
     });
   };
@@ -29,8 +31,8 @@ const Animation05 = () => {
   };
 
   return (
-    <Container title='Animasjon 5' keywords={['Cubic Bezier', 'https://matthewlein.com/tools/ceaser']}>
-      <AnimationArea height={200}>
+    <Container title='Animasjon 5' keywords={['Cubic Bezier', 'https://matthewlein.com/tools/ceaser', '[start, end]']}>
+      <AnimationArea height={100}>
         <div>
           <input type='text' onChange={(event) => handleInput(event)} placeholder='(.5, .05, .1, .3)' />
         </div>
