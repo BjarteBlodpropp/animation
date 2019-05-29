@@ -12,13 +12,16 @@ const Animation08 = () => {
 
     Anime({
       targets: '.animatedCircle',
-      rotateY: (el, index) => {
-        return ((index+1) * 180) + 'deg';
+      rotateY: (el, index, targets) => {
+        return ((targets - index + 1) * 360)+ 'deg';
       },
       delay: (el, index) => {
-        return index * 200;
+        return index * 500;
       },
-      duration: 2500
+      duration: (el, index, targets) => {
+        //return 5000;
+        return (targets - index + 1) * 1000;
+      }
     });
   };
 
